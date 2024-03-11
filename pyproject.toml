@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "nlp-heatmap-api"
+version = "0.1.0"
+description = "A fastapi microservice that scrapes a document and returns json that can be used to generate a heatmap of locations mentioned in the document."
+authors = ["Sean McLeaish <smcleaish@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
